@@ -150,7 +150,7 @@ export const Block: React.FC<Block> = props => {
                     }}
                   />
                 )}
-                <main
+                <section
                   className={classNames(
                     "notion-page",
                     !page_cover && "notion-page-offset",
@@ -174,11 +174,11 @@ export const Block: React.FC<Block> = props => {
                   </div>
 
                   {children}
-                </main>
+                </section>
               </div>
             );
           } else {
-            return <main className="notion">{children}</main>;
+            return <section className="notion">{children}</section>;
           }
         } else {
           if (!blockValue.properties) return null;
