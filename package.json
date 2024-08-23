@@ -40,7 +40,7 @@
     "type": "git",
     "url": "git+https://github.com/splitbee/react-notion.git"
   },
-  "name": "immortal-notion",
+  "name": "react-notion",
   "module": "dist/react-notion.esm.js",
   "peerDependencies": {
     "react": ">=16"
