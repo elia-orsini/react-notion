@@ -32,13 +32,9 @@
     "arrowParens": "avoid",
     "trailingComma": "none"
   },
-  "bugs": {
-    "url": "https://github.com/splitbee/react-notion/issues"
-  },
-  "homepage": "https://github.com/splitbee/react-notion#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/splitbee/react-notion.git"
+    "url": "git+https://github.com/elia-orsini/react-notion/tree/custom-features-for-immortal"
   },
   "name": "react-notion",
   "module": "dist/react-notion.esm.js",
