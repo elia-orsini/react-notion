@@ -348,7 +348,7 @@ export type BlockValueProp<T> = Extract<BlockValueType, { type: T }>;
 export interface CustomBlockComponentProps<T extends BlockValueTypeKeys> {
   renderComponent: () => JSX.Element | null;
   blockMap: BlockMapType;
-  blockValue: T extends BlockValueTypeKeys ? BlockValueProp<T> : BaseValueType;
+  blockValue: any; //TODO understans what's going on
   level: number;
 }
 

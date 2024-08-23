@@ -7,7 +7,6 @@ import {
   MapPageUrl,
   MapImageUrl,
   CustomBlockComponents,
-  BlockValueProp,
   CustomDecoratorComponents,
   CustomDecoratorComponentProps
 } from "./types";
@@ -536,7 +535,7 @@ export const Block: React.FC<Block> = props => {
       <CustomComponent
         renderComponent={renderComponent}
         blockMap={blockMap}
-        blockValue={blockValue as BlockValueProp<typeof blockValue.type>}
+        blockValue={blockValue as any} //TODO use any to make it build
         level={level}
       >
         {children}
